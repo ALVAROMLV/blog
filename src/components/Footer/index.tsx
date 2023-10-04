@@ -1,20 +1,10 @@
 import Link from 'next/link';
 import styles from './styles.module.css';
-const Navbar = () => {
+const Footer = () => {
     return (
-        <nav className={styles.nav}>
-        <ul>
-            <li>
-                <Link href="/">Home</Link>
-            </li>
-            <li>
-                <Link href="/post">Posts</Link>
-            </li>
-            <li>
-                <Link href="/about">About</Link>
-            </li>
-        </ul>
-        </nav>
+        <div className="footer">
+            <div className="sb_footer"></div>
+        </div>
     );
 };
-export default Navbar;
+export default Footer;
